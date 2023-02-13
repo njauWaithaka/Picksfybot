@@ -7,6 +7,7 @@ bot.start(ctx => {
     return ctx.reply("Hi")
   } catch (e) {
     console.error("error in start action:", e)
+    
     return ctx.reply("Error occured")
   }
 })
