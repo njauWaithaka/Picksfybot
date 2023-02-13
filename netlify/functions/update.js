@@ -1,5 +1,5 @@
 const { Telegraf } = require("telegraf")
-const bot = new Telegraf(process.env.5618943471:AAF2Yww24Zgm7citT2ZnfbNNm8h3zGB9N9g)
+const bot = new Telegraf('5618943471:AAF2Yww24Zgm7citT2ZnfbNNm8h3zGB9N9g')
 
 bot.start(ctx => {
   console.log("Received /start command")
